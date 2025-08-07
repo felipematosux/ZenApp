@@ -218,6 +218,7 @@ main h2 {
 .price_container {
     display: flex;
     gap: 7px;
+    justify-content: center;
 }
 
 .left_price {
@@ -419,3 +420,222 @@ footer p span {
 
 /* Mobile Settings: */
 
+
+@media (max-width:600px) {
+    
+    /* Mobile Global Settings: */
+
+    * {
+        padding: 2vh;
+    }
+
+    /* Mobile Menu Settings: */
+
+    .navmenu {
+        display: none;
+    }
+
+    .ctamenu {
+        display: none;
+    }
+
+    /* Mobile Main Settings: */
+
+    .ctabts a {
+        padding: 0;
+    }
+
+    main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    }
+
+    main h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 8px;
+    }
+
+    main h2 {
+        font-size: 18px;
+    }
+
+    main h2 span {
+        padding: 0;
+    }
+
+   .app_pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    background: none;
+}
+
+   .app_pic img {
+    height: 500px
+}
+
+
+/* Mobile Partners Settings: */
+
+.container_partners h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.partners {
+    background-color: var(--light);
+    padding-top: 40px;
+    flex-wrap: wrap;
+    padding-bottom:40px;
+}
+
+.logo_partner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 50px;
+}
+
+.logo_partner img{
+    width: auto;
+    height: 38px;
+}
+
+/* Mobile Pricing Settings: */
+
+.price_container {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pricing{
+    padding: 0;
+    background: none;
+}
+
+.pricing_title h2 {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.pricing_title h3 {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.left_price {
+    padding: 6vh 3vh 6vh 3vh;
+}
+
+.left_price h3 {
+    font-size: 40px;
+    padding: 0;
+}
+
+.left_price p {
+    padding: 0;
+}
+
+
+.line {
+    padding: 0;
+}
+
+.left_price ul li {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.left_price ul li span{
+    padding: 0;
+}
+
+.left_price button {
+    margin-top: 20px;
+    min-width: 200px;
+}
+
+
+.price h3 {
+    font-size: 60px;
+    padding-bottom: 0;
+}
+
+.price p {
+    padding-top: 0;
+    text-align: center;
+    color: var(--dark);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.middle_price {
+    padding: 6vh 3vh 6vh 3vh;
+}
+
+.middle_price h3 {
+    padding: 0;
+}
+
+.middle_price p {
+    padding: 0;
+}
+
+
+.middle_price .line {
+    padding: 0;
+}
+
+.middle_price ul li {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.middle_price ul li span{
+    padding: 0;
+}
+
+.middle_price button {
+    margin-top: 20px;
+    min-width: 200px;
+}
+
+.middle_price .price h3 {
+    font-size: 60px;
+    padding-bottom: 0;
+}
+
+.middle_price .price p {
+    padding-top: 0;
+    text-align: center;
+    color: var(--light);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+
+/* Mobile Footer Settings: */
+
+footer {
+    flex-direction: column;
+}
+
+footer p span {
+    padding: 0;
+}
+
+footer .social {
+    margin-top: 0;
+}
+
+}
