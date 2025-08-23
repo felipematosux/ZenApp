@@ -50,4 +50,4 @@ By building this project, I’ve been able to improve my understanding of:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/zenapp-landing-page.git
+git clone https://github.com/felipematosux/zenapp-landing-page.git
